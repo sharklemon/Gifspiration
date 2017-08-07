@@ -79,7 +79,9 @@ function toapi(){
 $(document.body).on("click", ".gif-button", toapi);
 
 
-$(document.body).on("click", "#mainGIF", function() {
+$(document.body).on("click", "#mainGIF", Motion)
+
+function Motion() {
   var state = $(this).attr("data-state");
   console.log("in main gif clicker state is ", state);
 
