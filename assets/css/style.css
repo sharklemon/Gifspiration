@@ -1,0 +1,69 @@
+*{
+
+}
+
+body{
+	background-image: url("../images/dotz.png");
+	background-size: 600px;
+}
+
+button{}
+
+.gif-button{
+	margin:20px;
+}
+
+div{}
+
+.rightcol{
+	padding:10px 30px 30px 30px;
+	background-color: rgba(255,255,255,.85);
+	margin:30px;
+}
+
+#buttonPanel{
+	padding:0 0 10px 0;
+	border: 2px;
+	border-color:blue;
+}
+.leftcol{
+	padding:50px;
+	background-color: rgba(255,255,255,.85);
+	margin:30px;
+	text-align: center;
+}
+
+.jumbotron{
+/*	background-image: url("../images/pointy.jpg");
+	background-repeat: no-repeat;
+	background-position: center;*/
+	background-color: rgba(255,0,0,.6);
+
+	color:white;
+	text-shadow:
+    -3px -3px 0 orange,
+    3px -3px 0 yellow,
+    -3px 3px 0 orange,
+    3px 3px 0 orange;     
+}
+
+#quote-div{
+	padding:20px;
+	font-weight: bold;
+	font-size:20pt;
+
+}
+
+
+@media screen and (min-width: 768px){
+
+.jumbotron h1, .jumbotron .h1 {
+    font-size: 100px;
+}
+
+
+
+
+
+
+

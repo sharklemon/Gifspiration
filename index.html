@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gifspiration</title>
+	<!-- Bootstrap File -->
+	<link rel="stylesheet" href="assets/css/reset.css">	
+	<link rel="stylesheet" href="https://bootswatch.com/united/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn:400,900" rel="stylesheet"> 	
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/logic.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+	<div class="jumbotron">
+		<h1 class="text-center" id="JTtitle"><strong>Gifspiration</strong></h1>
+	</div> <!-- jumbotron class -->
+
+	<div class="row"><!-- main row for content -->
+		<div class="col-lg-4 rightcol"><!-- left column for buttons -->
+			
+			<!-- left column for heading -->
+			<div class="row text-center" id="buttontitle"><h3>Choose a Gif for inpiration</h3></div>
+			
+			<!-- left row for default buttons -->	
+			<div class="row" id="buttonPanel"></div>
+
+			<!-- left row for create your own -->	
+			<div class="form-group">
+  				<label for="gif-input">Make your own gifspriation!</label><br>
+  				<input type="text" class="form-control input-lg" id="gif-input"><br>
+ 				<!-- This button will trigger our AJAX call -->
+ 				<input id="find-gif" class="btn btn-info form-control"  type="submit" value="Add a Gif">
+			</div>
+		
+		</div>	<!-- left column for buttons -->
+		<div class="col-lg-6 leftcol"><!-- left column for gif display -->
+			<div class="row"><!-- right row for quote -->
+			<div id="quote-div">
+			</div>
+			</div><!-- right row for quote -->
+
+			<div class="row"><!-- right row for gif result -->
+			<div id="gifs-appear-here">
+			</div>
+			</div><!-- right row for gif result -->
+
+		</div><!-- left column for gif display -->
+
+	</div>	<!-- main row for content -->
+
+</div>	<!-- container -->
+	
+
+</body>
+</html>
