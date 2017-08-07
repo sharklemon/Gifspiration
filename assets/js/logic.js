@@ -96,6 +96,6 @@ function Motion() {
     $(this).attr("src", newsource);
     $(this).attr("data-state", 'still');
   }
-});
+} ;
 
 });
