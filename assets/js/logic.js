@@ -47,7 +47,7 @@ function toapi(){
   var searchterm = $(this).attr("id");
   console.log("search is ",  searchterm);
 
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
   searchterm + "&rating=g&limit=10&api_key=fd924655bd99435e9a2e5bde34c1059b";
 
   $.ajax({
